@@ -129,8 +129,17 @@ class Categories extends DB {
 
 }
 
+class Simulator extends DB {
+    
+    constructor() {
+        super('simulator')
+    }
+
+}
+
 export default {
     Categories: new Categories(),
     Sensors: new Sensors(),
-    Users: new Users()
+    Users: new Users(),
+    Simulator: new Simulator()
 }
