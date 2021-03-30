@@ -2,13 +2,13 @@ const firebase = require('firebase')
 
 // put your own config here
 const firebaseConfig = {
-    apiKey: "AIzaSyCT2n9FyFZpzBdM-eefgM3q1NooIOKmUA0",
-    authDomain: "cp3351-73e9b.firebaseapp.com",
-    projectId: "cp3351-73e9b",
-    storageBucket: "cp3351-73e9b.appspot.com",
-    messagingSenderId: "761342188736",
-    appId: "1:761342188736:web:bb5450394e29612a78e125",
-    measurementId: "G-W7HKMFEDYR"
+    // apiKey: "AIzaSyCT2n9FyFZpzBdM-eefgM3q1NooIOKmUA0",
+    // authDomain: "cp3351-73e9b.firebaseapp.com",
+    // projectId: "cp3351-73e9b",
+    // storageBucket: "cp3351-73e9b.appspot.com",
+    // messagingSenderId: "761342188736",
+    // appId: "1:761342188736:web:bb5450394e29612a78e125",
+    // measurementId: "G-W7HKMFEDYR"
 }
 
 firebase.initializeApp(firebaseConfig);
