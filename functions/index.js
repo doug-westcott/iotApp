@@ -26,11 +26,10 @@ exports.createSampleData = functions.https.onCall(
   async (data, context) => {
 
     // comment the following out to reset auth db every time
-    // const users = await db.collection('users').get()
-    // if (users.docs.length > 0) {
-    //   functions.logger.info("already have data", {})
-    //   return
-    // }
+    if ((await db.collection('users').get()).docs.length > 0) {
+      functions.logger.info("already have data", {})
+      return
+    }
 
     const sensors = await findAll('sensors')
     await Promise.all(
