@@ -1,5 +1,4 @@
 .firebaserc
-fb.js
 node_modules/**/*
 .expo/*
 npm-debug.*
